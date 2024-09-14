@@ -8,7 +8,7 @@
 
 ## Ответ 
 
-[Статус нод](https://github.com/loginochka/kuber/blob/main/media/kubectl_status.png)
+![Статус нод](https://github.com/loginochka/kuber/blob/main/media/kubectl_status.png)
 
 
 ## Задание 2. Установка и настройка локального kubectl
@@ -19,4 +19,4 @@
 
 ## Ответ 
 
-[Dashboard](https://github.com/loginochka/kuber/blob/main/media/dashboard.png)
+![Dashboard](https://github.com/loginochka/kuber/blob/main/media/dashboard.png)

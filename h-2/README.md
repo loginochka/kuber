@@ -25,4 +25,4 @@
 
 ![curl до Service](https://github.com/loginochka/kuber/blob/main/media/1_2_curl_svc.png)
 
-![Результат работы](https://github.com/loginochka/kuber/blob/main/h-2/1_2_result.png)
+![Результат работы](https://github.com/loginochka/kuber/blob/main/media/1_2_result.png)

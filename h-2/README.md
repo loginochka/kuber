@@ -10,6 +10,7 @@
 
 ![curl до Pod](https://github.com/loginochka/kuber/blob/main/media/1_2_curl_pod.png)
 
+[Манифест Pod`a](https://github.com/loginochka/kuber/blob/main/h-2/ex-pod.yml)
 
 ## Задание 2. Установка и настройка локального kubectl
 
@@ -21,3 +22,5 @@
 ## Ответ 
 
 ![curl до Service](https://github.com/loginochka/kuber/blob/main/media/1_2_curl_svc.png)
+
+[Манифест Service`a](https://github.com/loginochka/kuber/blob/main/h-2/ex-service.yml)

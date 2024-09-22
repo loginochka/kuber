@@ -30,6 +30,6 @@
 
 ## Ответ 
 
-[Манифест Service`а](https://github.com/loginochka/kuber/blob/main/h-3/14-2-service.yml)
+[Манифест Service`а](https://github.com/loginochka/kuber/blob/main/h-4/14-2-service.yml)
 
 ![Резултат работы до и после запуска сервиса](https://github.com/loginochka/kuber/blob/main/media/1_4_curl_service_external.png)

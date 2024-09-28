@@ -1,0 +1,25 @@
+---
+apiVersion: apps/v1
+kind: DaemonSet
+metadata:
+  name: daemonset
+spec:
+  selector:
+    matchLabels:
+      app: vol-test
+  template:
+    metadata:
+      labels:
+        app: vol-test
+    spec:
+      containers:
+        - name: multitool
+          image: wbitt/network-multitool
+          volumeMounts:
+            - name: volume-test
+              mountPath: /data
+              readOnly: true
+      volumes:
+        - name: volume-test
+          hostPath:
+            path: /var/log/dpkg.log

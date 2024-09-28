@@ -7,3 +7,5 @@
 [Запуск приложений в K8S](https://github.com/loginochka/kuber/blob/main/h-3/README.md)
 
 [Сетевое взаимодействие в K8S. Часть 1](https://github.com/loginochka/kuber/blob/main/h-4/README.md)
+
+[Сетевое взаимодействие в K8S. Часть 2](https://github.com/loginochka/kuber/blob/main/h-5/README.md)

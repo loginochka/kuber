@@ -35,6 +35,8 @@
 
 ---
 
+### Ответ 2
+
 [Манифест Deployment](https://github.com/loginochka/kuber/blob/main/h-8/23-dpl-nginx.yml)
 
 [Манифест Service](https://github.com/loginochka/kuber/blob/main/h-8/23-svc.yml)

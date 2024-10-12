@@ -14,13 +14,14 @@
 
 [Манифест Deployment](https://github.com/loginochka/kuber/blob/main/h-8/23-dpl.yml)
 
-[Манифест Service](https://github.com/loginochka/kuber/blob/main/h-8/23-svc.uml)
+[Манифест Service](https://github.com/loginochka/kuber/blob/main/h-8/23-svc.yml)
 
 [Манифест Ingress](https://github.com/loginochka/kuber/blob/main/h-8/23-ing.yml)
 
 [Манифест ConfigMap](https://github.com/loginochka/kuber/blob/main/h-8/23-cm.yml)
 
-![Результат](https://github.com/loginochka/kuber/tree/main/media/2_3_custom_nginx.png)
+
+![Результат](https://github.com/loginochka/kuber/blob/main/media/2_3_custom_nginx.png)
 
 ---
 
@@ -36,7 +37,7 @@
 
 [Манифест Deployment](https://github.com/loginochka/kuber/blob/main/h-8/23-dpl-nginx.yml)
 
-[Манифест Service](https://github.com/loginochka/kuber/blob/main/h-8/23-svc.uml)
+[Манифест Service](https://github.com/loginochka/kuber/blob/main/h-8/23-svc.yml)
 
 [Манифест Ingress](https://github.com/loginochka/kuber/blob/main/h-8/23-ing.yml)
 
@@ -44,4 +45,5 @@
 
 [Манифест Secret](https://github.com/loginochka/kuber/blob/main/h-8/23-sec.yml)
 
-![Результат](https://github.com/loginochka/kuber/tree/main/media/2_3_https_ingres.png)
+
+![Результат](https://github.com/loginochka/kuber/blob/main/media/2_3_https_ingres.png)

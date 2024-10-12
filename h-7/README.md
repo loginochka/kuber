@@ -29,7 +29,7 @@
 
 ![Файл на pv](https://github.com/loginochka/kuber/blob/main/media/2_2_pv_file.png)
 
-После удаления PV, данные на диске не будут автоматически удалены, так как Kubernetes не управляет данными вне своих абстракций
+После удаления PV  данные на диске не будут автоматически удалены, так как Kubernetes не управляет данными вне своих абстракций
 
 ---
 
@@ -50,9 +50,9 @@
 
 NFS-сервер разернут на 1 ноде. На 2 и 3 нодах установлен nfs-клиент. В качестве provisioner используется nfs-subdir-external-provisioner
 
-[Манифест Deployment](https://github.com/loginochka/kuber/blob/main/h-6/22-deployment-nfs.yml)
+[Манифест Deployment](https://github.com/loginochka/kuber/blob/main/h-7/22-deployment-nfs.yml)
 
-[Манифест PVC](https://github.com/loginochka/kuber/blob/main/h-6/22-pvc.yml)
+[Манифест PVC](https://github.com/loginochka/kuber/blob/main/h-7/22-pvc.yml)
 
 ![Результат из ноды](https://github.com/loginochka/kuber/blob/main/media/2_2_nfs_check_in_node.png)
 

@@ -29,4 +29,5 @@
 [Манифест configmap](https://github.com/loginochka/kuber/blob/main/h-10/nginx-chart/templates/configmap.yml)
 
 
-![Результат](https://github.com/loginochka/kuber/tree/main/media/2_5_deploy.png)
+
+![Результат](https://github.com/loginochka/kuber/blob/main/media/2_5_deploy.png)

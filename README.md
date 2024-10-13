@@ -15,3 +15,5 @@
 [Хранение в K8s. Часть 2](https://github.com/loginochka/kuber/blob/main/h-7/README.md)
 
 [Конфигурация приложений](https://github.com/loginochka/kuber/blob/main/h-8/README.md)
+
+[Управление доступом](https://github.com/loginochka/kuber/blob/main/h-9/README.md)

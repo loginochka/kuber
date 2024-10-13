@@ -18,6 +18,7 @@
 
 ### Ответ 1 
 
+
 ![Результат](https://github.com/loginochka/kuber/tree/main/media/2_5_deploy.png)
 
 

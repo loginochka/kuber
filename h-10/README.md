@@ -18,10 +18,6 @@
 
 ### Ответ 1 
 
-
-![Результат](https://github.com/loginochka/kuber/tree/main/media/2_5_deploy.png)
-
-
 [Helm chart](https://github.com/loginochka/kuber/blob/main/h-10/nginx-chart/)
 
 [Манифест deployment](https://github.com/loginochka/kuber/blob/main/h-10/nginx-chart/templates/deployment.yml)
@@ -31,3 +27,6 @@
 [Манифест service](https://github.com/loginochka/kuber/blob/main/h-10/nginx-chart/templates/service.yml)
 
 [Манифест configmap](https://github.com/loginochka/kuber/blob/main/h-10/nginx-chart/templates/configmap.yml)
+
+
+![Результат](https://github.com/loginochka/kuber/tree/main/media/2_5_deploy.png)

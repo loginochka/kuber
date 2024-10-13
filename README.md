@@ -17,3 +17,5 @@
 [Конфигурация приложений](https://github.com/loginochka/kuber/blob/main/h-8/README.md)
 
 [Управление доступом](https://github.com/loginochka/kuber/blob/main/h-9/README.md)
+
+[«Helm»](https://github.com/loginochka/kuber/blob/main/h-10/README.md)

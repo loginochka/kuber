@@ -1,0 +1,10 @@
+metadata:
+  name: nginx-prod
+spec:
+  replicas: 2
+  selector: nginx
+container:
+  name: nginx
+  image: latest
+service:
+  name: front-svc

@@ -1,0 +1,31 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ .Values.metadata.name }}-{{ .Release.Name }}
+  annotations:
+    "meta.helm.sh/release-name": "{{ .Release.Name }}"
+    "meta.helm.sh/release-namespace": "{{ .Release.Namespace }}"
+spec:
+  replicas: {{ .Values.spec.replicas }}
+  selector:
+    matchLabels:
+      app: {{ .Values.spec.selector }}
+  template:
+    metadata:
+      labels:
+        app: {{ .Values.spec.selector }}
+    spec:
+      containers:
+        - name: {{ .Values.container.name }}
+          image: "nginx:{{ .Values.container.image }}"
+          ports:
+            - containerPort: 80
+          volumeMounts:
+            - name: index
+              mountPath: /usr/share/nginx/html
+              readOnly: true
+      volumes:
+        - name: index
+          configMap:
+            name: pod-vars-{{ .Release.Name }}
